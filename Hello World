@@ -1,0 +1,10 @@
+Batch can be run in programs such as notepad or notepad++. You can save your code by pressing save and changing text files to all files. When saving it is important to save your file as "whatever_you_would_like_to_call_it.bat you must allways end it with ".bat"
+
+REM @echo off is a command that you should be using at the beggining of your Batching Scripts. Also, if you are new to Batch you were probably wondering what REM means. "REM" is the code you use to add commments to your script for easier readability, basically it tells your device not to read that line.
+
+    @echo off
+    echo Hello World!
+    pause
+
+The indented code above, once run, basiccaly says "Hello World!"
+The command "echo" tells your computer to display the text followed after that command.
